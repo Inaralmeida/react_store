@@ -10,7 +10,7 @@ const CardProduct = ({ dados }) => {
       <h3>{nome}</h3>
       <small>DE: <span> R${precoAntigo}</span></small>
       <p>Por <span>R${preco}</span></p>
-      <Link className={S.link} to={`/produtos`}>Ver produto</Link>
+      <Link className={S.link} to={`/produto/${nome}`}>Ver produto</Link>
     </div>
   )
 }
