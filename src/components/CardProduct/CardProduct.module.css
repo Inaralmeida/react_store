@@ -1,0 +1,51 @@
+.container {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #00000080;
+}
+img {
+  width: 80%;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+small {
+  width: 100%;
+  font-size: 1.3rem;
+  text-decoration: line-through;
+}
+
+small > span {
+  font-weight: 700;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+p > span {
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.link {
+  font-size: 1.8rem;
+  background-color: tomato;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
